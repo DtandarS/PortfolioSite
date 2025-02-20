@@ -3,6 +3,19 @@
 * {
     font-family: "Funnel", sans-serif;
 }
+
 title {
     display: none;
+}
+
+.memememe img {
+    width: 1158px;
+    height: 1544px;
+    border-radius: 25px;
+}
+
+body {
+    overflow: hidden;
+    padding: 20px;
+    margin: 0;
 }

@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Funnel+Display:wght@300..800&family=Outfit:wght@100..900&display=swap');
+
+.navibar img {
+    width: 30px;
+    height: 30px;
+}
+
+.navibar {
+    display: inline block;
+    position: absolute;
+    overflow: hidden;
+}
+
+.nameman {
+    display: inline;
+    position: absolute;
+    padding: 20px;
+    margin: 0;
+    left: 20%;
+}

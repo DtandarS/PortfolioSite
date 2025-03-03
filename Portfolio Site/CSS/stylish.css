@@ -1,21 +1,53 @@
-@import url('https://fonts.googleapis.com/css2?family=Funnel+Display:wght@300..800&family=Outfit:wght@100..900&display=swap');
 
-* {
-    font-family: "Funnel", sans-serif;
-}
-
-title {
-    display: none;
-}
 
 .memememe img {
-    width: 1158px;
-    height: 1544px;
+    width: 434.25px;
+    height: 579px;
+}
+
+.memememe {
+    position: absolute;
+    left: 70%;
+    right: 0%;
+    display: block;
+    margin: 20px;
+    padding: 20px;
+    display: inline;
+}
+
+div {
+    background-color: white;
     border-radius: 25px;
 }
 
-body {
-    overflow: hidden;
+.perdesc {
+    position: absolute;
+    display: inline-block;
     padding: 20px;
-    margin: 0;
+    margin: 20px;
+    right: 75%;
+    left: 0%;
 }
+
+.rel {
+    position: absolute;
+    max-width: 100%;
+}
+
+.webdesc {
+    left: 25%;
+    right: 30%;
+    padding: 20px;
+    margin: 20px;
+    display: inline-block;
+
+}
+
+.apps {
+    left: 25%;
+    right: 30%;
+    padding: 20px;
+    margin: 20px;
+    display: inline-block;
+}
+

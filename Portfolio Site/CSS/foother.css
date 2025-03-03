@@ -1,0 +1,39 @@
+.feets {
+    background-color: gray;
+    padding: 100px;
+    bottom: 0px;
+    position: absolute;
+    right: 0px;
+    left: 0px;
+    border-radius: 0px;
+    padding: 5px;
+    margin: 0;
+}
+
+.feets ul {
+    list-style-type: none;
+}
+
+.feets li a {
+    text-decoration: none;
+    color: black;
+}
+
+.feetinfo {
+    position: absolute;
+    padding: 10px;
+    margin: 0;
+    display: inline;
+    right: 5%;
+    
+
+}
+
+
+.footerdisclaimer {
+    position: absolute;
+    padding: 10px;
+    margin: 0;
+    display: inline;
+
+}

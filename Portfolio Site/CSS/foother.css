@@ -1,13 +1,13 @@
 .feets {
     background-color: gray;
-    padding: 100px;
-    bottom: 0px;
     position: absolute;
+    padding: 30px;
+    margin: 0;
+    bottom: 0%;
     right: 0px;
     left: 0px;
     border-radius: 0px;
-    padding: 5px;
-    margin: 0;
+    
 }
 
 .feets ul {
@@ -17,23 +17,25 @@
 .feets li a {
     text-decoration: none;
     color: black;
+    text-align: left;
 }
 
 .feetinfo {
-    position: absolute;
-    padding: 10px;
+    position: relative;
+    height: 150px;
+    width: 200px;
+    padding: 0;
     margin: 0;
-    display: inline;
-    right: 5%;
-    
-
+    display: inline-block;
+    left: 0%;
 }
-
 
 .footerdisclaimer {
     position: absolute;
-    padding: 10px;
+    height: 150px;
+    width: 200px;
+    padding: 0;
     margin: 0;
-    display: inline;
-
+    display: inline-block;
+    right: 1%;
 }

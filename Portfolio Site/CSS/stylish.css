@@ -3,16 +3,18 @@
 .memememe img {
     width: 434.25px;
     height: 579px;
+    right: 0%;
+    border-radius: 5px;
+    max-width: 100%;
 }
 
 .memememe {
     position: absolute;
-    left: 70%;
-    right: 0%;
-    display: block;
-    margin: 20px;
+    left: auto;
+    right: 10px;
+    margin: 10px;
     padding: 20px;
-    display: inline;
+    display: inline-block;
 }
 
 div {
@@ -26,28 +28,30 @@ div {
     padding: 20px;
     margin: 20px;
     right: 75%;
-    left: 0%;
+    left: 0%; 
+    height: 579px;
 }
 
 .rel {
     position: absolute;
-    max-width: 100%;
+    max-width: 40%;
 }
 
 .webdesc {
     left: 25%;
-    right: 30%;
+    right: 25%;
     padding: 20px;
     margin: 20px;
-    display: inline-block;
-
+    display: block;
+    height: 200px;
 }
 
 .apps {
     left: 25%;
-    right: 30%;
+    right: 25%;
     padding: 20px;
     margin: 20px;
-    display: inline-block;
+    display: block;
+    height: 200px;
 }
 

@@ -16,26 +16,25 @@
 
 .feets li a {
     text-decoration: none;
-    color: black;
+    color: white;
     text-align: left;
+}
+
+.rol {
+    background-color: gray;
+    height: 150px;
+    width: 400px;
+    padding: 0;
+    margin: 0;
+    display: inline-block;
 }
 
 .feetinfo {
     position: relative;
-    height: 150px;
-    width: 200px;
-    padding: 0;
-    margin: 0;
-    display: inline-block;
     left: 0%;
 }
 
 .footerdisclaimer {
     position: absolute;
-    height: 150px;
-    width: 200px;
-    padding: 0;
-    margin: 0;
-    display: inline-block;
     right: 1%;
 }

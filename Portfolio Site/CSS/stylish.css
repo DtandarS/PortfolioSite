@@ -45,19 +45,23 @@ div {
 }
 
 .apps button {
+
     /*Display and position*/ 
     position: relative;
     display: inline-block;
     right: 1%;
     left: 1%;
+
     /*Border and it's size and curves*/ 
     border: none;
     border-radius: 5px;
     background-color: aliceblue;
+
     /*Background sizing*/ 
     width: 300px;
     height: 80px;
     font-size: 30px;
+    
     /**/
     margin: 10px;
     padding: 20px;

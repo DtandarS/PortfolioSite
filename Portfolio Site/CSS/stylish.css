@@ -31,7 +31,7 @@ div {
     margin: 20px;
     width: 20%;
     left: 0%; 
-    height: 579px;
+    height: 500px;
 }
 
 .rel {
@@ -44,13 +44,12 @@ div {
     height: 200px;
 }
 
-.apps button {
+.mainButton {
 
     /*Display and position*/ 
-    position: relative;
+    position: absolute;
     display: inline-block;
-    right: 1%;
-    left: 1%;
+    max-width: 100%;
 
     /*Border and it's size and curves*/ 
     border: none;
@@ -61,7 +60,7 @@ div {
     width: 300px;
     height: 80px;
     font-size: 30px;
-    
+
     /**/
     margin: 10px;
     padding: 20px;
@@ -73,4 +72,11 @@ div {
 .apps a {
     text-decoration: none;
     color: black;
+}
+
+.portfolioButton {
+    right: 10%;
+}
+.appSiteButton {
+    left: 10%;
 }

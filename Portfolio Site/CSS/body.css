@@ -2,20 +2,17 @@
 
 * {
     font-family: "Funnel", sans-serif;
+    max-width: 100%;
+    margin: 0px;
 }
+
 
 title {
     display: none;
 }
 
-.memememe img {
-    width: 1158px;
-    height: 1544px;
-    border-radius: 25px;
-}
-
 body {
-    overflow: hidden;
+    overflow: scroll;
     padding: 20px;
-    margin: 0;
+    background-color: #fcf8f5;
 }

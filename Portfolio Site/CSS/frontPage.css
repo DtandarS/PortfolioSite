@@ -1,0 +1,86 @@
+
+
+.memememe img {
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    margin: 0;
+    padding: 0;
+    right: 0%;
+}
+
+.memememe {
+    position: absolute;
+    left: auto;
+    right: 0%;
+    margin: 20px;
+    padding: 20px;
+    display: block;
+    width: 20%;
+}
+
+div {
+    background-color: white;
+    border-radius: 25px;
+}
+
+.perdesc {
+    position: absolute;
+    display: inline-block;
+    padding: 20px;
+    margin: 20px;
+    width: 20%;
+    left: 0%; 
+    height: 500px;
+}
+
+.rel {
+    position: relative;
+    width: 45%;
+    padding: 20px;
+    margin: 20px;
+    left: 25%;
+    display: block;
+    height: 200px;
+}
+
+.mainButton {
+
+    /*Display and position*/ 
+    position: absolute;
+    display: inline-block;
+    max-width: 100%;
+
+    /*Border and it's size and curves*/ 
+    border: none;
+    border-radius: 5px;
+    background-color: aliceblue;
+
+    /*Background sizing*/ 
+    width: 300px;
+    height: 80px;
+    font-size: 30px;
+
+    /**/
+    margin: 10px;
+    padding: 20px;
+
+    text-align: center;
+
+}
+
+.apps a {
+    text-decoration: none;
+    color: black;
+}
+
+.portfolioButton {
+    right: 10%;
+}
+.appSiteButton {
+    left: 10%;
+}
+
+.feets {
+    bottom: 0%;
+}

@@ -3,18 +3,59 @@
 .navibar img {
     width: 30px;
     height: 30px;
+    left: 50%;
+    display: block;
+    position: absolute;
+    margin: 10px;
+    padding: 0px;
+    
 }
 
 .navibar {
-    display: inline block;
-    position: absolute;
+    display: block;
+    position: relative;
     overflow: hidden;
-}
-
-.nameman {
-    display: inline;
-    position: absolute;
     padding: 20px;
     margin: 0;
-    left: 20%;
+    background-color: aliceblue;
+    border-radius: 25px;
+    height: 50px;
+    right: 0%;
+    left: 0%;
+}
+
+.navibar li {
+    list-style-type: none;
+    text-decoration: none;
+    display: none;
+}
+
+.navibar a {
+    text-decoration: none;
+    color: black;
+}
+
+.myName {
+    display: block;
+    position: absolute;
+    font-size: 30px;
+    margin: 10px;
+    padding: 0px;
+    background: none;
+    background-color: aliceblue;
+}
+
+.navibar button {
+    display: block;
+    position: absolute;
+    height: 50px;
+    width: 100px;
+    text-align: center;
+    right: 0px;
+    border: none;
+    background-color: white;
+    border-radius: 10px;
+    padding: 0px;
+    margin: 0px;
+    margin-right: 20px;
 }

@@ -1,80 +1,100 @@
+
 div {
 	background-color: aliceblue;
 
 	padding: 10px;
 	margin: 20px;
-
+	
 	border-radius: 28px;
-}
-
-.absolute {
-	position: absolute;
-	display: block;
-
-	padding: 10px;
-	margin: 20px 0 20px 0;
-}
-
-.relative {
-	position: relative;
-	display: inline-block;
-
-	padding: 10px;
-	margin: 20px;
-	height: 200px;
-	max-width: 100%;
-
-	right: 0%;
-	left: 0%;
-
 }
 
 .footer {
 	top: 500px;
 }
 
-
-.myImage {
-    margin: 20px;
-    padding: 20px;
-    display: block;
-    width: 20%;
-
-	right: 1%;
-	left: 75%;
-	top: 75px;
-	
-}
-
 .bigAssHeader {
-	max-width: 100%;
+	padding: 10px;
+	margin: 10px;
+
 	right: 25%;
 	left: 25%;
-
+}
+.bigAssHeader h1{
 	text-align: center;
 }
 
-.personalDetails {
-	top: 185px;
-	max-width: 100%;
-	overflow-x: hidden;
-	right: 75%;
-	left: 1%;
+.columns {
+	display: grid;
+	grid-template-areas: 
+	"header header header"
+	"left main right";
+	grid-template-columns: 30% auto 30%;
+	height: 100%;
+	padding: 0,7px;
+	color: black;
+	grid-gap: 0.7px;
+	background-color: #fcf8f5;
+
+}
+.Introduction {
+	display: grid;
+	grid-template-areas: 
+	"introTopl introTop introTopR"
+	"introLeft introMain introRight"
+	"ifooter ifooter ifooter";
+	grid-template-columns: 20% auto 20%;
+	height: 100%;
+	padding: 0.7px;
+	margin: 10px;
+	color: black;
+	grid-gap: 0.7px;
+	background-color: #fcf8f5;
 }
 
-.myImage img {
-	border-radius: 8px;
+.Introduction > * {
+	place-items: center;
+	display: grid;
+
+	height: 300px;
+}
+
+.myImage {
+	grid-area: introTopR;
+	background-color: transparent;
+}
+.myImage img{
+	border-radius: 20px;
+}
+
+.personalDetails {
+	grid-area: introTopl;
+
 }
 
 .personalSummery {
-	right: 30%;
-	left: 30%;
-	top: 185px;
-	max-width: 100%;
-	overflow-x: hidden;
+	grid-area: introTop;
+}
 
-	height: 500px;
+.skillSlider {
+	grid-area: introMain;
+}
+
+.columns > * {
+	place-items: center;
+	display: grid;
+
+	height: 200px;
+}
+
+.workExp {
+	grid-area: left;
 
 }
 
+.myEducations {
+	grid-area: main;
+}
 
+.languageProficiency {
+	grid-area: right;
+}

@@ -1,0 +1,104 @@
+
+div {
+	background-color: aliceblue;
+
+	padding: 10px;
+	margin: 20px;
+	
+	border-radius: 28px;
+}
+
+.footer {
+	top: 500px;
+}
+
+.bigAssHeader {
+	padding: 10px;
+	margin: 10px;
+
+	right: 25%;
+	left: 25%;
+}
+.bigAssHeader h1{
+	text-align: center;
+}
+
+
+/*
+
+*/
+.columns {
+	display: grid;
+	grid-template-areas: 
+	"header header header"
+	"left main right";
+	grid-template-columns: 30% auto 30%;
+	height: 100%;
+	padding: 0,7px;
+	color: black;
+	grid-gap: 0.7px;
+	background-color: #fcf8f5;
+
+}
+.Introduction {
+	display: grid;
+	grid-template-areas: 
+	"introTopl introTop introTopR"
+	"introLeft introMain introRight"
+	"ifooter ifooter ifooter";
+	grid-template-columns: 20% auto 20%;
+	height: 100%;
+	padding: 0.7px;
+	margin: 10px;
+	color: black;
+	grid-gap: 0.7px;
+	background-color: #fcf8f5;
+}
+
+.Introduction > * {
+	place-items: center;
+	display: grid;
+
+	height: 300px;
+}
+
+.myImage {
+	grid-area: introTopR;
+	background-color: transparent;
+}
+.myImage img{
+	border-radius: 20px;
+}
+
+.personalDetails {
+	grid-area: introTopl;
+
+}
+
+.personalSummery {
+	grid-area: introTop;
+}
+
+.skillSlider {
+	grid-area: introMain;
+}
+
+.columns > * {
+	place-items: center;
+	display: grid;
+
+	height: 200px;
+}
+
+.workExp {
+	grid-area: left;
+
+}
+
+.myEducations {
+	grid-area: main;
+}
+
+.languageProficiency {
+	grid-area: right;
+}

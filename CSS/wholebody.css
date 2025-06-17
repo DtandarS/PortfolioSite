@@ -1,0 +1,58 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Funnel+Display:wght@300..800&family=Outfit:wght@100..900&display=swap');
+
+* {
+
+  font-family: "Funnel", sans-serif;
+  max-width: 100%;
+  margin: 0;
+
+}
+
+
+title {
+  
+  display: none;
+
+}
+
+body {
+
+  overflow: scroll;
+  padding: 20px;
+  background-color: #fcf8f5;
+  display: grid;
+  grid-template-areas: 
+  "Name image"
+  "tittle image"
+  "whoIsImg whoIs"
+  "whoIsImg meme"
+  "moreInfo evenMoreInfo"
+  "empty CVpdf"
+  "aboutSite"
+  "webImage webInfo"
+  "Apps"
+  "app1 app2 app3"
+  "app1link app2link app3link"
+  "Games"
+  "game1 game2 game3 game4"
+  "behindTheScene"
+  "btsInfo btsImage"
+  "youtubeButton"
+  "ReachOuts reachoutPhoto"
+  "email phone"
+  "instagram facebook linkedin phone" 
+  ;
+  grid-template-columns: 30% auto 30%;
+  height: 100%;
+  padding: 0,7px;
+  color: black;
+  grid-gap: 0.7px;
+  background-color: grey;
+
+}
+
+
+
+
+

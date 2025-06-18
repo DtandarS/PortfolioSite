@@ -19,37 +19,48 @@ title {
 body {
 
   overflow: scroll;
-  padding: 20px;
-  background-color: #fcf8f5;
   display: grid;
   grid-template-areas: 
-  "Name image"
-  "tittle image"
-  "whoIsImg whoIs"
-  "whoIsImg meme"
-  "moreInfo evenMoreInfo"
-  "empty CVpdf"
-  "aboutSite"
-  "webImage webInfo"
-  "Apps"
-  "app1 app2 app3"
-  "app1link app2link app3link"
-  "Games"
-  "game1 game2 game3 game4"
-  "behindTheScene"
-  "btsInfo btsImage"
-  "youtubeButton"
-  "ReachOuts reachoutPhoto"
-  "email phone"
-  "instagram facebook linkedin phone" 
+  "tittle"
+  "theManHimself"
+  "about"
+  "thisWeb"
+  "apps"
+  "games"
+  "bts"
+  "contacts"
   ;
-  grid-template-columns: 30% auto 30%;
+  grid-template-columns: auto;
   height: 100%;
-  padding: 0,7px;
   color: black;
-  grid-gap: 0.7px;
+  padding: 0,7px ;
+  gap: 0,2em;
   background-color: grey;
 
+}
+
+
+p {
+  font-size: 200px;
+  color: blue;
+}
+
+
+.headTittle {
+  border-style: solid;
+  border-color: black;
+  border-radius: 20px;
+
+  height: 100%;
+
+  grid-area: tittle;
+
+  background-color: white;
+}
+
+
+main {
+  grid-area: theManHimself;
 }
 
 

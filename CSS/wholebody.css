@@ -32,35 +32,46 @@ body {
   ;
   grid-template-columns: auto;
   height: 100%;
-  color: black;
-  padding: 0,7px ;
-  gap: 0,2em;
-  background-color: grey;
+  margin: 5px;
+  padding: 4px ;
+  gap: 3em;
+  background-color: #848484;
 
 }
-
-
-p {
-  font-size: 200px;
-  color: blue;
-}
-
 
 .headTittle {
-  border-style: solid;
-  border-color: black;
   border-radius: 20px;
 
   height: 100%;
 
+  padding: 5px;
+
   grid-area: tittle;
 
-  background-color: white;
+  background-color: #848484;
 }
 
+.tittleProfession {
+  border-style: solid;
+  border-radius: 20px;
+  height: 2em;
+}
 
-main {
+.tittleProfession p {
+  align-self: center;
+
+}
+
+.main {
   grid-area: theManHimself;
+  
+  border-radius: 20px;
+
+  height: 100%;
+
+  padding: 5px;
+
+  background-color: white;
 }
 
 

@@ -22,9 +22,9 @@ body {
   display: grid;
   grid-template-areas: 
   "tittle"
-  "theManHimself"
+  "themanhimself"
   "about"
-  "thisWeb"
+  "thisweb"
   "apps"
   "games"
   "bts"
@@ -34,36 +34,76 @@ body {
   height: 100%;
   margin: 5px;
   padding: 4px ;
-  gap: 3em;
+  gap: 1em;
   background-color: #848484;
 
 }
 
 .headTittle {
-  border-radius: 20px;
 
-  height: 100%;
-
-  padding: 5px;
+  overflow: scroll;
+  display: grid;
+  grid-template-areas: 
+  "name" "backImage"
+  "profession" "myImage"
+  ;
+  grid-template-columns: 50% auto;
+  background-color: white;
 
   grid-area: tittle;
 
-  background-color: #848484;
+  border-radius: 20px;
+
+}
+
+.Name {
+
+  grid-area: name;
+  position: relative;
+
+  font-size: 100px;
+
 }
 
 .tittleProfession {
+
   border-style: solid;
   border-radius: 20px;
   height: 2em;
+  width: 25%;
+  
+
 }
 
 .tittleProfession p {
-  align-self: center;
+
+  font-size: 20px;
+  text-align: center;
+  margin: 0.2em;
 
 }
 
+.backgroundImage {
+
+
+  height: 200px;
+  width: auto;
+
+
+}
+
+.meImage{ 
+
+  width: auto;
+  height: 100px;
+
+
+}
+
+
 .main {
-  grid-area: theManHimself;
+
+  grid-area: themanhimself;
   
   border-radius: 20px;
 
@@ -71,7 +111,7 @@ body {
 
   padding: 5px;
 
-  background-color: white;
+  background-color: red;
 }
 
 

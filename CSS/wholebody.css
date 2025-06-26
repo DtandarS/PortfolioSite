@@ -41,7 +41,6 @@ body {
 
 .headTittle {
 
-  overflow: scroll;
   display: grid;
   grid-template-areas: 
   "name" "backImage"
@@ -83,6 +82,12 @@ body {
 
 }
 
+.meImage{
+
+  height: 200px;
+  width: auto;
+  
+}
 
 
 .main {

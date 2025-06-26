@@ -47,31 +47,30 @@ body {
 
 .container h1 {
 
-  position: absolute;
+  float: left;
+
   font-size: 150px;
 
   max-width: 50%;
 
-  left: 10%;
+  left: 30%;
   top: 50px;
 
 }
 
-.container p {
+.landing-section p {
   
-  text-decoration: none;
-
   border-style: solid;
   border-radius: 20px;
 
   font-size: 40px;
-
   text-align: center;
+  padding: 10px;
 
-  width: 600px;
-  height: 50px;
+  width: auto;
+  height: auto;
 
-  position: absolute;
+  float: left;
 
   left: 10%;
   top: 600px 
@@ -86,26 +85,25 @@ body {
 
 .container .myImage {
 
-  position: absolute;
+  position: relative;
+  float: right;
 
   max-width: 100%;
 
-  right: 10%;
-  top: 150px;
+  top: 9vw;
+  right: 1vw;
 
-  height: 700px;
+  height: 600px;
   width: auto;
 
 }
 
 .container .backgroundImage {
 
-  position: absolute;
+  position: relative;
+  float: right;
 
-  max-width: 100%;
-
-  right: 5%;
-  top: 100px; 
+  right: 5vw;
 
   height: 750px;
   width: 300px;

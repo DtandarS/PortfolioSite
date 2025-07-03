@@ -66,5 +66,9 @@ footer {
 
   height: 100px;
 
-}
+  position: relative;
+  text-align: center;
 
+  bottom: -10%;
+
+}

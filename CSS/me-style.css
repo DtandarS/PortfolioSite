@@ -11,7 +11,7 @@
 body
 {
   display: grid;
-  grid-template-columns: 100% ;
+  grid-template-columns: 10% 80% 10% ;
   grid-template-rows:auto;
   grid-template-areas: 
   "left hero right"
@@ -21,6 +21,26 @@ body
   "left expertise right"
   "left education right"
   ;
+}
+.attributes
+{
+  grid-area: attributes;
+}
+.lifestyle-values
+{
+  grid-area: lifestyle;
+}
+.hobbies-interest
+{
+  grid-area: hobbits;
+}
+.technical-expertise
+{
+  grid-area: expertise;
+}
+.education-skills
+{
+  grid-area: education;
 }
 .-meow
 {
@@ -81,6 +101,7 @@ body
 
   border-radius: 20px;
 }
+
 
 
 

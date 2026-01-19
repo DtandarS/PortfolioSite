@@ -13,7 +13,14 @@ body
   display: grid;
   grid-template-columns: 100% ;
   grid-template-rows:auto;
-  grid
+  grid-template-areas: 
+  "left hero right"
+  "left attributes right"
+  "left lifestyle right"
+  "left hobbits right"
+  "left expertise right"
+  "left education right"
+  ;
 }
 .-meow
 {
@@ -21,5 +28,59 @@ body
   height: 500px;
   width: 100%;
 }
+
+.left
+{
+  grid-area: left;
+}
+.right
+{
+  grid-area: right;
+}
+.hero-section
+{
+
+  grid-area: hero;
+
+  background-color: rgba(255, 255, 255, 100);
+  display: grid;
+  grid-template-columns: 70% 30% ;
+  grid-template-rows:20%;
+  grid-template-areas:
+  "texti summery"
+  "imagis summery"
+  ;
+
+  height: 600px;
+
+}
+
+.summery
+{
+  grid-area: summery;
+  
+  border-radius: 20px;
+
+}
+.summery p
+{
+
+  background-color: rgba(055, 055, 055, 100);
+
+  border-radius: 15px ;
+}
+.hero-text
+{
+  grid-area: texti ;
+  
+  border-radius: 20px;
+}
+.hero-image
+{
+  grid-area: imagis;
+
+  border-radius: 20px;
+}
+
 
 

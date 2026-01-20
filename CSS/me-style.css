@@ -130,6 +130,38 @@ body
   width: auto;
 }
 
+.attributes
+{
+  display: grid;
+  grid-template-rows: auto;
+  grid-template-columns: 33.33% 33.33% 33.33%;
+  grid-template-areas: 
+  "leader creative funny"
+  ;
+  
+  background-color: rgba(255, 255, 255, 100);
+  
+  width: 100%;
+}
 
+.leadership
+{
+  grid-area: leader;
 
+  border-radius: 20px;
+}
+
+.creative
+{
+  grid-area: creative;
+
+  border-radius: 20px;
+}
+
+.funnyfunny
+{
+  grid-area: funny;
+
+  border-radius: 20px;
+}
 

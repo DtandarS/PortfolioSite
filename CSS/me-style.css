@@ -88,7 +88,9 @@ body
 }
 .summery p
 {
-  font-size: 30px;
+  font-size: 40px;
+  width: 90%;
+  text-justify: inter-word;
 }
 .hero-text
 {
@@ -110,6 +112,7 @@ body
   border-radius: 15px;
 
   font-size: 40px;
+
 }
 .hero-image
 {

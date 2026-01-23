@@ -5,7 +5,6 @@
   padding: 5px;
   margin: 6px;
 
-
 }
 
 body
@@ -142,6 +141,24 @@ body
   background-color: rgba(255, 255, 255, 100);
   
   width: 100%;
+}
+
+.attributes h2
+{
+  font-size: 30px;
+  text-decoration: none;
+
+  color: rgba(100, 100, 100, 100);
+}
+
+.attributes p
+{
+  font-size: 24px;
+  text-decoration: none;
+
+  color: rgba(50, 50, 50, 100);
+
+  text-justify: inter-word;
 }
 
 .leadership

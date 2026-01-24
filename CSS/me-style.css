@@ -5,10 +5,14 @@
   padding: 5px;
   margin: 6px;
 
+  height: auto;
+
 }
 
 body
 {
+  width: 100%;
+
   display: grid;
   grid-template-columns: 10% 80% 10% ;
   grid-template-rows:auto;
@@ -20,6 +24,16 @@ body
   "left expertise right"
   "left education right"
   ;
+}
+.-meow
+{
+  background-color: white;
+  height: 500px;
+  width: 100%;
+}
+.-round-inner-corner
+{
+  border-radius: 15px;
 }
 .attributes
 {
@@ -40,12 +54,6 @@ body
 .education-skills
 {
   grid-area: education;
-}
-.-meow
-{
-  background-color: white;
-  height: 500px;
-  width: 100%;
 }
 
 .left
@@ -229,6 +237,77 @@ body
 {
   grid-area: right;
 }
+
+.hobbies-interest
+{
+  border-radius: 20px;
+
+  display: grid;
+  grid-template-rows: 20% 80% ;
+  grid-template-columns: 20%, 20%, 20%, 20%, 20%;
+  grid-template-areas: 
+  "title title title title title"
+  " 3d-p maker scse bar entertainment "
+  ;
+
+  line-height: 40px;
+}
+
+.hobbies-interest div
+{
+border: solid 6px rgba(120, 120, 102, 100);
+}
+
+.hobbies-interest h3
+{
+  grid-area: title;
+
+  font-size: 50px;
+  text-align: center;
+
+  text-decoration: none;
+
+  line-height: 150%;
+}
+.hobbies-interest h2
+{
+  text-align: center;
+  font-size: 35px;
+}
+.hobbies-interest p
+{
+  font-size: 30px;
+
+  text-align: center;
+}
+
+.maker-3d
+{
+  grid-area: 3d-p;
+}
+
+.diy-maker
+{
+  grid-area: maker;
+}
+
+.software-dev
+{
+  grid-area: scse;
+}
+
+.bartend
+{
+  grid-area: bar;
+}
+
+.entertainment
+{
+  grid-area: entertainment;
+}
+
+
+
 
 
 

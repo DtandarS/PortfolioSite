@@ -1,5 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 *
 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 100px;
+  font-style: normal;
 
   background-color: rgba(237, 237, 237, 100);
   padding: 5px;
@@ -14,10 +18,11 @@ body
   width: 100%;
 
   display: grid;
-  grid-template-columns: 10% 80% 10% ;
+  grid-template-columns: 5% 90% 5% ;
   grid-template-rows:auto;
   grid-template-areas: 
   "left hero right"
+  "left hero-text right"
   "left attributes right"
   "left lifestyle right"
   "left hobbits right"
@@ -25,15 +30,26 @@ body
   "left education right"
   ;
 }
+
+
 .-meow
 {
   background-color: white;
-  height: 500px;
   width: 100%;
 }
 .-round-inner-corner
 {
   border-radius: 15px;
+}
+
+
+.hero-section
+{
+  grid-area: hero; 
+}
+.hero-summery
+{
+  grid-area: hero-text;
 }
 .attributes
 {
@@ -64,249 +80,12 @@ body
 {
   grid-area: right;
 }
-.hero-section
-{
 
-  grid-area: hero;
-
-  background-color: rgba(255, 255, 255, 100);
-  display: grid;
-  grid-template-columns: 55% 45% ;
-  grid-template-rows:auto;
-  grid-template-areas:
-  "texti imagis"
-  "summery imagis"
-  ;
-
-  height: auto;
-  width: 100%;
-
-}
-
-.summery
-{
-  grid-area: summery;
-  
-  border-radius: 20px;
-
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.summery p
-{
-  font-size: 40px;
-  width: 90%;
-  text-justify: inter-word;
-}
-.hero-text
-{
-  grid-area: texti ;
-  
-  border-radius: 20px;
-  
-  text-align: center;
-}
-.hero-text h2 
-{
-  border-radius: 15px;
-
-  font-size: 100px;
-}
-.hero-text p
-{
-  background-color: rgba(255, 255, 255, 100);
-  border-radius: 15px;
-
-  font-size: 40px;
-
-}
-.hero-image
-{
-  grid-area: imagis;
-
-  border-radius: 20px;
-
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
 .hero-image img
 {
-  height: 600px;
-  width: auto;
-}
-
-.attributes
-{
-  display: grid;
-  grid-template-rows: auto;
-  grid-template-columns: 33.33% 33.33% 33.33%;
-  grid-template-areas: 
-  "leader creative funny"
-  ;
-  
-  background-color: rgba(255, 255, 255, 100);
-  
-  width: 100%;
-}
-
-.attributes h2
-{
-  font-size: 30px;
-  text-decoration: none;
-
-  color: rgba(100, 100, 100, 100);
-}
-
-.attributes p
-{
-  font-size: 24px;
-  text-decoration: none;
-
-  color: rgba(50, 50, 50, 100);
-
-  text-justify: inter-word;
-}
-
-.leadership
-{
-  grid-area: leader;
-
-  border-radius: 20px;
-}
-
-.creative
-{
-  grid-area: creative;
-
-  border-radius: 20px;
-}
-
-.funnyfunny
-{
-  grid-area: funny;
-
-  border-radius: 20px;
-}
-
-.lifestyle-values
-{
-
-  display: grid;
-  grid-template-rows: auto;
-  grid-template-columns: 30% 40% 30% ;
-  grid-template-areas:
-  "left da-text right"
-  ; 
-
   height: auto;
+  width: 20px;
 }
-
-.text-lv
-{
-  border-radius: 20px;
-  grid-area: da-text;
-  background-color: white;
-}
-
-.lifestyle-values h2
-{
-  font-size: 30px;
-  text-decoration: none;
-
-  color: rgba(80, 80, 80, 100);
-  border-radius: 15px;
-}
-
-.lifestyle-values p
-{
-  font-size: 30px;
-  text-decoration: none;
-
-  color: rgba(80, 80, 80, 100);
-  border-radius: 15px;
-}
-
-.lv-left
-{
-  grid-area: left;
-}
-
-.lv-right
-{
-  grid-area: right;
-}
-
-.hobbies-interest
-{
-  border-radius: 20px;
-
-  display: grid;
-  grid-template-rows: 20% 80% ;
-  grid-template-columns: 20%, 20%, 20%, 20%, 20%;
-  grid-template-areas: 
-  "title title title title title"
-  " 3d-p maker scse bar entertainment "
-  ;
-
-  line-height: 40px;
-}
-
-.hobbies-interest div
-{
-border: solid 6px rgba(120, 120, 102, 100);
-}
-
-.hobbies-interest h3
-{
-  grid-area: title;
-
-  font-size: 50px;
-  text-align: center;
-
-  text-decoration: none;
-
-  line-height: 150%;
-}
-.hobbies-interest h2
-{
-  text-align: center;
-  font-size: 35px;
-}
-.hobbies-interest p
-{
-  font-size: 30px;
-
-  text-align: center;
-}
-
-.maker-3d
-{
-  grid-area: 3d-p;
-}
-
-.diy-maker
-{
-  grid-area: maker;
-}
-
-.software-dev
-{
-  grid-area: scse;
-}
-
-.bartend
-{
-  grid-area: bar;
-}
-
-.entertainment
-{
-  grid-area: entertainment;
-}
-
-
 
 
 

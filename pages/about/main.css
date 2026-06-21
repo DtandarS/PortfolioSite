@@ -26,6 +26,17 @@ body
 
 }
 
+a
+{
+  text-decoration: none;
+  color: var(--almond);
+}
+
+a:hover
+{
+  color: var(--dark-coffee);
+}
+
 /* First landing area - Hero */
 
 .title

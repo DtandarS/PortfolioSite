@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap');
+*
+{
+  padding: 0px;
+  margin: 0px;
+
+  --snow: rgb(255, 251,255);
+  --almond: rgb(241, 218, 191);
+  --taupe: rgb(146, 129, 122);
+  --dark-coffee: rgb(54, 36, 23);
+  --black: rgb(0, 5, 0);
+
+  font-family: "DM Mono", monospace;
+  font-weight: 300;
+  font-style: normal;
+}
+
+body
+{
+  background-color: var(--snow);
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.projects
+{
+  height: auto;
+  width: 96%;
+  background-color: var(--snow);
+
+
+  border-style: solid;
+  border-width: 10px;
+  border-color: var(--black);
+  border-radius: 20px;
+
+  margin-bottom: 30px;
+  margin-top: 30px;
+
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto;
+  grid-auto-rows: 1fr;
+
+}
+
+.title
+{
+  text-align: center;
+}
+
+.projects a
+{
+
+  height: 350px;
+  margin: 10px;
+  padding: 20px;
+
+  background-color: var(--dark-coffee);
+  border-radius: 10px;
+
+  text-decoration: none;
+}
+
+.projects h2
+{
+  color: var(--almond);
+}
+
+.projects img
+{
+  height: 200px;
+  width: 100%;
+  
+  border-radius: 5px;
+}
+
+.box p
+{
+  color: var(--taupe);
+}
+
+.wall-of-list
+{
+  width: 90%;
+  height: auto;
+
+  border: 10px solid;
+  border-color: var(--dark-coffee);
+  border-radius: 20px;
+
+  padding: 20px;
+  margin: 20px;
+
+  background-color: var(--taupe);
+}
+
+a div
+{
+  width: auto;
+
+  background-color: var(--almond);
+
+  padding: 15px;
+  margin: 10px;
+
+  height: 60px;
+
+  border-radius: 10px;
+}
+
+a
+{
+  color: var(--dark-coffee);
+
+  text-decoration: none;
+}
+
+
+
